@@ -1,7 +1,7 @@
 ﻿Shader "MechMocha/LightEmission" {
 	Properties {
 		_MainTex ("Main Texture", 2D) = "white" {}
-		_LightTex ("Light Info Texture", 2D) = "white" {}
+		_LightTex ("Light Info Texture", 2D) = "black" {}
 		_TargetColor ("Target Color", Color) = (1,1,1,1)
 		_ReplaceColor ("Replace Color", Color) = (1,1,1,1)
 		_Intensity ("Intensity", Range(0.0, 1.0)) = 1.0
